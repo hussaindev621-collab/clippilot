@@ -1,0 +1,6 @@
+{
+  "name": "ClipPilot AI",
+  "description": "Turn Any Video Into Viral Clips Instantly with AI Moment Detection, Captions, and HD Downloader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

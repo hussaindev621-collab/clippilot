@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Montserrat:wght@400;700;900&family=Space+Grotesk:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0B0B0F;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom premium scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2029;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7B61FF;
+}
+
+/* Smooth neon pulses */
+@keyframes neonPulse {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(123,97,255,0.6), 0 0 20px rgba(123,97,255,0.4);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(0,194,255,0.8), 0 0 30px rgba(0,194,255,0.6);
+  }
+}
+
